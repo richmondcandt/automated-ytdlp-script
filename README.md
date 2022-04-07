@@ -34,7 +34,7 @@ for Turkish script:
 ./yt-dlp_indirici.sh
 ```
 
-After installing curl and gave execute permission to scripts, you have to go to "bin" folder and run script with bash terminal.
+After installing yt-dlp, you have to go to "bin" folder and run script with bash terminal.
 These scripts are available for 2 languages: English and Turkish.
 
 for English script:
