@@ -34,7 +34,7 @@ Türkçe komut dosyası için:
 ./yt-dlp_indirici.sh
 ```
 
-Curl'i kurduktan ve komut dosyalarına yürütme izni verdikten sonra, "bin" klasörüne gitmeli ve komut dosyasını bash terminali ile çalıştırmalısınız.
+yt-dlp'i kurduktan sonra, "bin" klasörüne gitmeli ve komut dosyasını bash terminali ile çalıştırmalısınız.
 Bu betikler 2 dil için mevcuttur: İngilizce ve Türkçe.
 
 İngilizce komut dosyası için:
