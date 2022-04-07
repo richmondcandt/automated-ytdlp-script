@@ -1,14 +1,14 @@
 # Automated yt-dlp script
 Automated yt-dlp bash script.
 
-# You have to install curl to install yt-dlp.
+# You have to install curl to install yt-dlp and need ffmpeg for yt-dlp.
 If you are using apt package manager or debian-based distro, run the code below: 
 ```
-sudo apt update ; sudo apt install curl
+sudo apt update ; sudo apt install curl ffmpeg 
 ```
 If you are using pacman package manager or arch-based distro, run the code below:
 ```
-sudo pacman -Sy curl
+sudo pacman -Sy curl ffmpeg
 ```
 If you aren't using these package managers:
 Sorry, i don't know other package managers and you can search it on the net like "how to install curl with 'your package manager'" or "how to install curl in 'your distro'".
