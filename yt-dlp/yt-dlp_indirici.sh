@@ -5,6 +5,7 @@ read answer
 if [[ "$answer" == "E" || "$answer" == "e" ]]; then
 	echo "Kurulum yapiliyor..."
 	sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+	sudo chmod a+rx /usr/local/bin/yt-dlp
 	echo "Kurulum yapildi."
 	break
 elif [[ "$answer" == "H" || "$answer" == "h" ]]; then
