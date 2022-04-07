@@ -7,4 +7,4 @@ Run the optional.sh
 ```
 ./optional.sh 
 ```
-# After running script, you can be able to run the scripts with downloader.sh command on terminal without going to any directory.
+# After running script, you can be able to run the script with downloader.sh command on terminal without going to any directory.
