@@ -1,4 +1,4 @@
-# automated-ytdlp-script
+# Automated yt-dlp script
 Automated yt-dlp bash script.
 
 # You have to install curl to install yt-dlp.
