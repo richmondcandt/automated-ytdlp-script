@@ -4,7 +4,7 @@ Otomatik yt-dlp bash betiği.
 # yt-dlp'yi kurmak için curl ve ffmpeg kurmanız gerekiyor.
 Apt paket yöneticisi veya debian tabanlı dağıtım kullanıyorsanız, aşağıdaki kodu çalıştırın:
 ```
-sudo apt update; sudo apt install curl ffmpeg
+sudo apt update ; sudo apt install curl ffmpeg
 ```
 Pacman paket yöneticisi veya arch tabanlı dağıtım kullanıyorsanız, aşağıdaki kodu çalıştırın:
 ```
