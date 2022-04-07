@@ -1,6 +1,10 @@
-You can add the script to your $PATH for executing without going to any directory with cd command.
-Make sure you gave execute permissions to scripts.
-[code] sudo chmod a+rx optional.sh [/code]
+# You can add the script to your $PATH for executing without going to any directory with cd command.
+# Make sure you gave execute permissions to scripts.
+```
+sudo chmod a+rx optional.sh
+```
 Run the optional.sh
-[code] ./optional.sh  [/code]
-After running script, you can be able to run the scripts with downloader.sh command on terminal without going to any directory.
+```
+./optional.sh 
+```
+# After running script, you can be able to run the scripts with downloader.sh command on terminal without going to any directory.
