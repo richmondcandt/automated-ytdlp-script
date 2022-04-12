@@ -1,7 +1,7 @@
 # Automated yt-dlp script
 Automated yt-dlp bash script.
 
-# You have to install curl to install yt-dlp and need ffmpeg for yt-dlp.
+## We need curl and ffmpeg
 If you are using apt package manager or debian-based distro, run the code below: 
 ```
 sudo apt update ; sudo apt install curl ffmpeg 
@@ -12,7 +12,7 @@ sudo pacman -Sy curl ffmpeg
 ```
 If you aren't using these package managers:
 Sorry, i don't know other package managers and you can search it on the net like "how to install curl with 'your package manager'" or "how to install curl in 'your distro'".
-# You have to give execution permissions to run these scripts.
+## You have to give execution permissions to run these scripts.
 Go to "bin" folder and run the code below:
 ```
 sudo chmod a+rx *.sh
@@ -46,4 +46,4 @@ for Turkish script:
 ./indirici.sh
 ```
 
- # Enjoy!
+ ## Enjoy!
