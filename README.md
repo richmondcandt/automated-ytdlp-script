@@ -15,11 +15,11 @@ Sorry, i don't know other package managers and you can search it on the net like
 ## You have to give execution permissions to run these scripts.
 Go to "bin" folder and run the code below:
 ```
-chmod a+rx *.sh
+chmod a+rx *
 ```
 Go to "yt-dlp" folder and run the code below:
 ```
-chmod a+rx *.sh
+chmod a+rx *
 ```
 ## The "yt-dlp" folder is needed for installing yt-dlp, if you already installed you can skip it.
 
@@ -27,11 +27,11 @@ To install yt-dlp go to "yt-dlp" folder and run the code below:
 
 for English script:
 ```
-./yt-dlp_downloader.sh
+./yt-dlp_downloader
 ```
 for Turkish script:
 ```
-./yt-dlp_indirici.sh
+./yt-dlp_indirici
 ```
 
 After installing yt-dlp, you have to go to "bin" folder and run script with bash terminal.
@@ -39,11 +39,11 @@ These scripts are available for 2 languages: English and Turkish.
 
 for English script:
 ```
-./downloader.sh
+./downloader
 ```
 for Turkish script:
 ```
-./indirici.sh
+./indirici
 ```
 
  ## Enjoy!
