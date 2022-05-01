@@ -15,11 +15,11 @@ Bu paket yöneticilerini kullanmıyorsanız:
 # Bu scriptleri çalıştırmak için çalıştırma izinleri vermelisiniz.
 "bin" klasörüne gidin ve aşağıdaki kodu çalıştırın:
 ```
-sudo chmod a+rx *.sh
+chmod a+rx *.sh
 ```
 "yt-dlp" klasörüne gidin ve aşağıdaki kodu çalıştırın:
 ```
-sudo chmod a+rx *.sh
+chmod a+rx *.sh
 ```
 ## yt-dlp'yi yüklemek için "yt-dlp" klasörü gereklidir, zaten yüklediyseniz atlayabilirsiniz.
 
