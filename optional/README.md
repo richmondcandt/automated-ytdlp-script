@@ -1,4 +1,4 @@
-## You can add the script to your $PATH for executing without going to any directory with cd command.
+## You can add the script to your $PATH (/usr/local/bin) for executing without going to any directory with cd command.
 ## Make sure you gave execute permissions to script.
 ```
 chmod a+rx optional.sh
