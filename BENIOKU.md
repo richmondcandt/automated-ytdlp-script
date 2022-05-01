@@ -47,3 +47,5 @@ Türkçe komut dosyası için:
 ```
 
  # Eğlence!
+
+### Betiği istediğiniz ad ile ve istediğiniz yerde çalıştırmak için optional klasörüne göz atın.
