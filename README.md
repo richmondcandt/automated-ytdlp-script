@@ -47,3 +47,5 @@ for Turkish script:
 ```
 
  ## Enjoy!
+
+### If you want to run downloader script with any name you want and everywhere, take a look to optional folder.
