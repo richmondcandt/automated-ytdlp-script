@@ -1,6 +1,8 @@
 # Otomatik yt-dlp betiği
 Otomatik yt-dlp bash betiği.
 
+![Kullanımı](https://github.com/nxjosephofficial/nxjosephofficial/blob/main/yt-dlp.gif)
+
 # yt-dlp'yi kurmak için curl ve ffmpeg kurmanız gerekiyor.
 Apt paket yöneticisi veya debian tabanlı dağıtım kullanıyorsanız, aşağıdaki kodu çalıştırın:
 ```
