@@ -15,11 +15,11 @@ Sorry, i don't know other package managers and you can search it on the net like
 ## You have to give execution permissions to run these scripts.
 Go to "bin" folder and run the code below:
 ```
-sudo chmod a+rx *.sh
+chmod a+rx *.sh
 ```
 Go to "yt-dlp" folder and run the code below:
 ```
-sudo chmod a+rx *.sh
+chmod a+rx *.sh
 ```
 ## The "yt-dlp" folder is needed for installing yt-dlp, if you already installed you can skip it.
 
