@@ -1,7 +1,7 @@
 # cd komutu ile herhangi bir dizine gitmeden çalıştırmak için $PATH degiskeninize scripti ekleyebilirsiniz.
 # Komut dosyalarına yürütme izinleri verdiğinizden emin olun.
 ```
-sudo chmod a+rx optional.sh
+chmod a+rx optional.sh
 ```
 # Optional.sh'yi çalıştırın
 ```
