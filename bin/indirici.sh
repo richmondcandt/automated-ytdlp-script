@@ -14,17 +14,17 @@ read type
 if [[ "$type" == "mp3" ]]; then
     echo "Link bağlantısını giriniz:"
     read link
-    yt-dlp -x --audio-format mp3 $link
-elif [[ $type == "mp4" ]]; then
+    yt-dlp -x --audio-format mp3 "$link"
+elif [[ "$type" == "mp4" ]]; then
     echo "Link bağlantısını giriniz:"
     read link
-    yt-dlp -f 22 $link
+    yt-dlp -f 22 "$link"
 
-elif [[ $type == "webm" ]]; then
+elif [[ "$type" == "webm" ]]; then
     echo "Link bağlantısını giriniz:"
     read link
-    yt-dlp $link
-elif [[ $type == "q" ]]; then
+    yt-dlp "$link"
+elif [[ "$type" == "q" ]]; then
     break
 
 else
