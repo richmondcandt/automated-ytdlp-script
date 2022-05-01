@@ -1,6 +1,8 @@
 # Automated yt-dlp script
 Automated yt-dlp bash script.
-![How to use gif](https://github.com/nxjosephofficial/nxjosephofficial/blob/main/ytdlp.gif)
+
+![How to use gif](https://github.com/nxjosephofficial/nxjosephofficial/blob/main/yt-dlp.gif)
+
 ## We need curl and ffmpeg
 If you are using apt package manager or debian-based distro, run the code below: 
 ```
