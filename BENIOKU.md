@@ -15,11 +15,11 @@ Bu paket yöneticilerini kullanmıyorsanız:
 # Bu scriptleri çalıştırmak için çalıştırma izinleri vermelisiniz.
 "bin" klasörüne gidin ve aşağıdaki kodu çalıştırın:
 ```
-chmod a+rx *.sh
+chmod a+rx *
 ```
 "yt-dlp" klasörüne gidin ve aşağıdaki kodu çalıştırın:
 ```
-chmod a+rx *.sh
+chmod a+rx *
 ```
 ## yt-dlp'yi yüklemek için "yt-dlp" klasörü gereklidir, zaten yüklediyseniz atlayabilirsiniz.
 
@@ -27,11 +27,11 @@ yt-dlp'yi yüklemek için "yt-dlp" klasörüne gidin ve aşağıdaki kodu çalı
 
 İngilizce komut dosyası için:
 ```
-./yt-dlp_downloader.sh
+./yt-dlp_downloader
 ```
 Türkçe komut dosyası için:
 ```
-./yt-dlp_indirici.sh
+./yt-dlp_indirici
 ```
 
 yt-dlp'i kurduktan sonra, "bin" klasörüne gitmeli ve komut dosyasını bash terminali ile çalıştırmalısınız.
@@ -39,11 +39,11 @@ Bu betikler 2 dil için mevcuttur: İngilizce ve Türkçe.
 
 İngilizce komut dosyası için:
 ```
-./downloader.sh
+./downloader
 ```
 Türkçe komut dosyası için:
 ```
-./indirici.sh
+./indirici
 ```
 
  # Eğlence!
