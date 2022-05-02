@@ -6,7 +6,7 @@ Automated yt-dlp bash script.
 ## We need curl and ffmpeg
 If you are using apt package manager or debian-based distro, run the code below: 
 ```
-sudo apt update ; sudo apt install curl ffmpeg 
+sudo apt install curl ffmpeg 
 ```
 If you are using pacman package manager or arch-based distro, run the code below:
 ```
