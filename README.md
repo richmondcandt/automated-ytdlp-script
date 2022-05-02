@@ -10,7 +10,7 @@ sudo apt update ; sudo apt install curl ffmpeg
 ```
 If you are using pacman package manager or arch-based distro, run the code below:
 ```
-sudo pacman -Sy curl ffmpeg
+sudo pacman -S curl ffmpeg
 ```
 If you aren't using these package managers:
 Sorry, i don't know other package managers and you can search it on the net like "how to install curl with 'your package manager'" or "how to install curl in 'your distro'".
