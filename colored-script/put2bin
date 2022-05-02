@@ -1,8 +1,0 @@
-#!/bin/bash
-LBLUE='\033[1;34m' # Light Blue
-NC='\033[0m' # No Color // Normal
-printf "${LBLUE}That script is going to put qq into /usr/local/bin for be able to executing directly with any name you want.${NC}\n"
-printf "${LBLUE}What name do you want to call it?: ${NC}\n"
-read name
-sudo cp qq /usr/local/bin/"$name"
-ls --color=auto /usr/local/bin/
