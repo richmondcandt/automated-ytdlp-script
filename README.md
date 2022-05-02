@@ -1,6 +1,6 @@
 ### An automated yt-dlp shell script
 
-![Usage](https://github.com/nxjosephofficial/nxjosephofficial/blob/main/yt-dlp.gif)
+![Usage](https://github.com/nxjosephofficial/automated-ytdlp-script/blob/main/yt-dlp.gif)
 
 That script needs yt-dlp. If you don't have yt-dlp, you can run yt-dlp-installer or install manually.
 If you have yt-dlp, you can run downloader.
