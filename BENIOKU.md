@@ -1,5 +1,5 @@
 # Otomatik yt-dlp betiği
-Otomatik yt-dlp bash betiği.
+Otomatik yt-dlp shell betiği.
 
 ![Kullanımı](https://github.com/nxjosephofficial/nxjosephofficial/blob/main/yt-dlp.gif)
 
