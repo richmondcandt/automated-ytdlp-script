@@ -1,5 +1,5 @@
 # Automated yt-dlp script
-Automated yt-dlp bash script.
+An automated yt-dlp shell script.
 
 ![Usage](https://github.com/nxjosephofficial/nxjosephofficial/blob/main/yt-dlp.gif)
 
