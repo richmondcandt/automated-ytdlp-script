@@ -1,0 +1,16 @@
+#!/bin/bash
+while true; do
+printf "Do you want to put downloader into /usr/local/bin/ for be able to execute from everywhere?\nY or N\n"
+read i 
+if [[ "$i" == "Y" || "$i" == "y" ]]; then
+sudo cp downloader /usr/local/bin/downloader
+printf "Rename it with any name you want.\n"
+read name 
+sudo mv /usr/local/bin/downloader /usr/local/bin/"$name"
+ls --color=auto /usr/local/bin/ | grep "$name" 
+printf "Now you can run script from everywhere with "$name"\n"
+break
+elif [[ "$i" == "N" || "$i" == "n" ]]; then
+break
+fi
+done
