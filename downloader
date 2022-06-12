@@ -17,18 +17,33 @@ LBLUE='\033[0;34m' # Light Blue
 while true; do
 printf "${CYAN}mp3, mp4, webm,${YELLOW} q, exit${NC}\n"
 read type
-if [[ "$type" == "mp3" ]]; then
+if [ "$type" == "mp3" ]; then
 printf "${PURPLE}Link: ${NC}"
 read link
+if [ -d "/home/$USER/Music/" ]; then
 yt-dlp -x --audio-format mp3 "$link" -o /home/$USER/Music/"%(title)s.%(ext)s"
-elif [[ "$type" == "mp4" ]]; then
+elif [ ! -d "/home/$USER/Music/" ]; then
+mkdir -p /home/$USER/Music/
+yt-dlp -x --audio-format mp3 "$link" -o /home/$USER/Music/"%(title)s.%(ext)s"
+fi
+elif [ "$type" == "mp4" ]; then
 printf "${PURPLE}Link: ${NC}"
 read link
+if [ -d "/home/$USER/Videos/" ]; then
 yt-dlp -f 22 "$link" -o /home/$USER/Videos/"%(title)s.%(ext)s"
-elif [[ "$type" == "webm" ]]; then
+elif [ ! -d "/home/$USER/Videos/" ]; then
+mkdir -p /home/$USER/Videos/
+yt-dlp -f 22 "$link" -o /home/$USER/Videos/"%(title)s.%(ext)s"
+fi
+elif [ "$type" == "webm" ]; then
 printf "${PURPLE}Link: ${NC}"
 read link
+if [ -d "/home/$USER/Videos/" ]; then
 yt-dlp "$link" -o /home/$USER/Videos/"%(title)s.%(ext)s"
+elif [ ! -d "/home/$USER/Videos/"]; then
+mkdir -p /home/$USER/Videos/
+yt-dlp "$link" -o /home/$USER/Videos/"%(title)s.%(ext)s"
+fi
 elif [[ "$type" == "q" || "$type" == "exit" ]]; then
 break
 else
