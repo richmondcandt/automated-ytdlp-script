@@ -1,16 +1,30 @@
 #!/bin/bash
-while true; do
-printf "Do you want to put downloader into /usr/local/bin/ for be able to execute from everywhere?\nY or N\n"
+printf "Do you want to put downloader into ~/.local/bin/ for be able to execute from everywhere?\nY or N\n"
 read i 
 if [[ "$i" == "Y" || "$i" == "y" ]]; then
-sudo cp downloader /usr/local/bin/downloader
+if [ -d "~/.local/bin/" ]; then
 printf "Rename it with any name you want.\n"
 read name 
-sudo mv /usr/local/bin/downloader /usr/local/bin/"$name"
-ls --color=auto /usr/local/bin/ | grep "$name" 
-printf "Now you can run script from everywhere with "$name"\n"
-break
-elif [[ "$i" == "N" || "$i" == "n" ]]; then
-break
+cp downloader ~/.local/bin/"${name}"
+else
+mkdir -p ~/.local/bin/
+printf "Rename it with any name you want.\n"
+read name 
+cp downloader ~/.local/bin/"${name}"
 fi
-done
+printf """
+Which shell are you using?
+1. bash
+2. fish
+"""
+read whichsh
+if [[ "$whichsh" == "1" || "$whichsh" == "bash" ]]; then
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+elif [[ "$whichsh" == "2" || "$whichsh" == "fish" ]]; then
+./fish-add-path
+fi
+printf "Now you can run script from everywhere with "$name"\n"
+exit
+elif [[ "$i" == "N" || "$i" == "n" ]]; then
+exit
+fi
