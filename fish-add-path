@@ -1,2 +1,2 @@
 #!/bin/fish
-fish_add_path -a $HOME/Music/
+fish_add_path -a $HOME/.local/bin/
