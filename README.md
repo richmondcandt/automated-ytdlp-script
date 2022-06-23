@@ -19,7 +19,8 @@ sudo pacman -S curl ffmpeg
 
 You can run put-to-bin for be able to execute downloader script from everywhere and rename downloader.
 
-### Where are downloaded files?
+### Information for version v1
+#### Where are downloaded files?
 for mp3 files, script puts them into ~/Music folder.
 <br>
 for mp4 and webm files, script puts them into ~/Videos folder.
