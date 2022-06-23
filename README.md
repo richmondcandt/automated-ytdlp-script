@@ -7,7 +7,6 @@ If you have yt-dlp, you can run downloader.
 
 ### Dependencies
 > Python versions 3.7+ (CPython and PyPy) are supported. Other versions and implementations may or may not work correctly.
-While all the other dependencies are optional.
 - python
 - curl
 - ffmpeg
