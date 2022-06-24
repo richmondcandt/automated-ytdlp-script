@@ -1,6 +1,13 @@
 ### An automated yt-dlp shell script
 
-![Usage](https://github.com/nxjosephofficial/automated-ytdlp-script/blob/main/yt-dlp.gif)
+##### Usage of release v1
+
+![Usage of Release v1](https://github.com/nxjosephofficial/automated-ytdlp-script/blob/main/yt-dlp.gif)
+
+
+##### Usage of release v2
+
+![Usage of Release v2](https://github.com/nxjosephofficial/automated-ytdlp-script/blob/main/yt-dlp-v2.gif)
 
 That script needs yt-dlp. If you don't have yt-dlp, you can run yt-dlp-installer or install manually.
 If you have yt-dlp, you can run downloader.
