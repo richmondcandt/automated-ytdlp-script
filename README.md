@@ -9,30 +9,27 @@
 
 ![Usage of Release v2](https://github.com/nxjosephofficial/automated-ytdlp-script/blob/main/yt-dlp-v2.gif)
 
-That script needs yt-dlp. If you don't have yt-dlp, you can run yt-dlp-installer or install manually.
-If you have yt-dlp, you can run downloader.
+### Requirements
 
-### Dependencies
-> Python versions 3.7+ (CPython and PyPy) are supported. Other versions and implementations may or may not work correctly.
 - python
+> Python versions 3.7+ (CPython and PyPy) are supported. Other versions and implementations may or may not work correctly.
+
 - curl
 - ffmpeg
+- yt-dlp
 
-for Debian-based distros
+Install requirements for Debian-based distros
 ```
-sudo apt install curl ffmpeg python3
-```
-
-for Arch-based distros
-```
-sudo pacman -S curl ffmpeg python
+sudo apt install curl ffmpeg python3 yt-dlp
 ```
 
-You can run put-to-bin for be able to execute downloader script from everywhere and rename downloader.
+Install requirements for Arch-based distros
+```
+sudo pacman -S curl ffmpeg python yt-dlp --needed
+```
 
+### v1 features
+- Does not ask for download path, mp3 files goes into `~/Music` mp4 files goes into `~/Videos`
 
-### Information for version v1
-#### Where are downloaded files?
-for mp3 files, script puts them into ~/Music folder.
-<br>
-for mp4 and webm files, script puts them into ~/Videos folder.
+### v2 features
+- Asks for download path.
