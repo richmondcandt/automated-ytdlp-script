@@ -1,4 +1,4 @@
-### An automated yt-dlp shell script
+### An automated bash script for yt-dlp
 
 ### Features
 
