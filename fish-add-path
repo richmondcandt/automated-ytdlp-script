@@ -1,2 +1,0 @@
-#!/bin/fish
-fish_add_path -a $HOME/.local/bin/
