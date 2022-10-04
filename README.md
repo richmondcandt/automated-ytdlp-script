@@ -14,6 +14,9 @@
 - `yt-dlp`
 
 ###### Install requirements for Debian-based distros
+
+> Debian Bullseye (Stable) does not have yt-dlp in their repository.
+
 ```
 sudo apt install curl ffmpeg python3 yt-dlp
 ```
