@@ -5,7 +5,7 @@
 - Asks user input for filetype (mp3,mp4 or webm)
 - Asks user input for where to download the file (. is valid as input)
 - Even if the file title so long, it downloads the file successfully
-- You can download a channel's all videos.
+- You can download any YouTube channel's all videos.
 
 ### Requirements
 
