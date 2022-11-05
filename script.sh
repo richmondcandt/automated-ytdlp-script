@@ -42,13 +42,13 @@ fi
 elif [[ "$type" == "q" || "$type" == "exit" ]]; then
 break
 elif [ "$type" == "channel" ]; then
-printf "Enter Channel ID\n"
+printf "${PURPLE}Enter Channel ID${NC}\n"
 read channel
 if [ "$channel" == "" ]; then
-    printf "${RED}Channel can not be empty!${NC}\n"
+    printf "${RED}Channel ID can not be empty!${NC}\n"
     break
 fi
-printf "Select video formats?\n1) 720p, 2) 1080p, 3) best, 4) mp3\n"
+printf "${PURPLE}Select video format${CYAN}\n1) 720p, 2) 1080p, 3) best, 4) mp3${NC}\n"
 read format
 if [ "$format" != "" ]; then
     if [[ "$format" == "1" || "$format" == "720p" ]]; then
