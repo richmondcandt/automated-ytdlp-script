@@ -27,6 +27,9 @@ sudo apt install curl ffmpeg python3 yt-dlp
 sudo pacman -S curl ffmpeg python yt-dlp --needed
 ```
 
+###### How to install the script
+- **Easiest and recommended method :** You can install `.deb` package of the script if you are using a Debian-based distro.
+- **Manual installation :** You can move the script to any of your `$PATH` environment so you can run it easily. You can name the script as `automated-ytdlp-script`.
+
 ### Notes about usage
-- webm filetype is required for files which can not downloaded with mp4
-- It is recommended to create a bash alias which points to script.sh for easy usage, i.e `alias ytdlp='bash ~/Documents/automated-ytdlp-script/script.sh'`
+- webm video format is required for files which can not downloaded with mp4 video format.
