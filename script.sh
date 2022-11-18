@@ -7,9 +7,19 @@ PURPLE='\033[0;35m' # Purple
 LBLUE='\033[0;34m' # Light Blue
 whereami=$(pwd) # for support '.' in path input
 while true; do
-printf "${CYAN}mp3, mp4, webm, channel,${YELLOW} q, exit${NC}\n"
+printf "${CYAN}ogg, mp3, mp4, webm, channel,${YELLOW} q, exit${NC}\n"
 read type
-if [ "$type" == "mp3" ]; then
+if [ "$type" == "ogg" ]; then
+printf "${PURPLE}Link: ${NC}"
+read link
+printf "${PURPLE}Path: ${NC}"
+read path
+if [ "$path" == "." ]; then
+yt-dlp -x --audio-format vorbis "$link" -o "$whereami"/"%(title).200s.%(ext)s"
+else
+yt-dlp -x --audio-format vorbis "$link" -o "$path""%(title).200s.%(ext)s"
+fi
+elif [ "$type" == "mp3" ]; then
 printf "${PURPLE}Link: ${NC}"
 read link
 printf "${PURPLE}Path: ${NC}"
@@ -48,7 +58,7 @@ if [ "$channel" == "" ]; then
     printf "${RED}Channel ID can not be empty!${NC}\n"
     break
 fi
-printf "${PURPLE}Select video format${CYAN}\n1) 720p, 2) 1080p, 3) best, 4) mp3${NC}\n"
+printf "${PURPLE}Select video format${CYAN}\n1) 720p, 2) 1080p, 3) best, 4) mp3, 5) ogg${NC}\n"
 read format
 if [ "$format" != "" ]; then
     if [[ "$format" == "1" || "$format" == "720p" ]]; then
@@ -58,7 +68,9 @@ if [ "$format" != "" ]; then
     elif [[ "$format" == "3" || "$format" == "best" ]]; then
         yt-dlp -f b --embed-thumbnail --embed-metadata --download-archive $channel.txt https://www.youtube.com/channel/$channel/videos -o '%(channel)s/%(title).200s.%(ext)s'
     elif [[ "$format" == "4" || "$format" == "mp3" ]]; then
-        yt-dlp -x --audio-format mp3 --embed-thumbnail --embed-metadata --download-archive $channel.txt https://www.youtube.com/channel/$channel/videos -o '%(channel)s/%(title).200s.%(ext)s'    
+        yt-dlp -x --audio-format mp3 --embed-thumbnail --embed-metadata --download-archive $channel.txt https://www.youtube.com/channel/$channel/videos -o '%(channel)s/%(title).200s.%(ext)s'
+    elif [[ "$format" == "5" || "$format" == "ogg" ]]; then
+        yt-dlp -x --audio-format vorbis --embed-thumbnail --embed-metadata --download-archive $channel.txt https://www.youtube.com/channel/$channel/videos -o '%(channel)s/%(title).200s.%(ext)s'    
     else
         printf "${RED}Wrong format!${NC}\n"
     fi
